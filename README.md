@@ -70,7 +70,11 @@ And I display stop recording message
 ## Installation
 1. The MinkExtension is required.
 2. Clone the repository into your features/bootstrap directory.
-3. Update your behat.yaml file to reference the new context class:
+3. Clone the [Behat Fake Pointer JavaScript](https://github.com/robtyleratwork/BehatFakePointerJs)
+repository into your javascript directory.
+4. Clone the [Behat Fake Pointer CSS](https://github.com/robtyleratwork/BehatFakePointerCss)
+   repository into your CSS directory.
+5. Update your behat.yaml file to reference the new context class:
 ```
             contexts:
                 - Behat\MinkExtension\Context\MinkContext
